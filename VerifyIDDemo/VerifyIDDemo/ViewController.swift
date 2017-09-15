@@ -66,10 +66,17 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         
         let index1 = uid.index(uid.startIndex, offsetBy: 1)
+        let indexForGendar = uid.index(uid.startIndex, offsetBy: 2)
         let index2 = uid.index(uid.startIndex, offsetBy: 9)
+        let rangeForGendar = index1..<indexForGendar
         let range = index1..<index2
         let alpha = uid.substring(to: index1)
         let number = uid[range]
+        
+        guard uid[rangeForGendar] == "1" || uid[rangeForGendar] == "2" else {
+            print("請輸入正確的ID. (性別碼錯誤)")
+            return false
+        }
         
         let firNum = getNumFrom(FirstAlphabet: alpha)
         let secNum = getNum(FromNum: number)
