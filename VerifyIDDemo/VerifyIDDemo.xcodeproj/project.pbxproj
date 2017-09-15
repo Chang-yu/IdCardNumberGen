@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE73934A1F6B7CE200842057 /* GenAndVerifyIDUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7393491F6B7CE200842057 /* GenAndVerifyIDUtil.swift */; };
 		CE760E4B1F67DBF2007E105F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE760E4A1F67DBF2007E105F /* AppDelegate.swift */; };
 		CE760E4D1F67DBF2007E105F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE760E4C1F67DBF2007E105F /* ViewController.swift */; };
 		CE760E501F67DBF2007E105F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE760E4E1F67DBF2007E105F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE7393491F6B7CE200842057 /* GenAndVerifyIDUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenAndVerifyIDUtil.swift; sourceTree = "<group>"; };
 		CE760E471F67DBF2007E105F /* VerifyIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerifyIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE760E4A1F67DBF2007E105F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE760E4C1F67DBF2007E105F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				CE760E4A1F67DBF2007E105F /* AppDelegate.swift */,
 				CE760E4C1F67DBF2007E105F /* ViewController.swift */,
+				CE7393491F6B7CE200842057 /* GenAndVerifyIDUtil.swift */,
 				CE760E4E1F67DBF2007E105F /* Main.storyboard */,
 				CE760E511F67DBF2007E105F /* Assets.xcassets */,
 				CE760E531F67DBF2007E105F /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE73934A1F6B7CE200842057 /* GenAndVerifyIDUtil.swift in Sources */,
 				CE760E4D1F67DBF2007E105F /* ViewController.swift in Sources */,
 				CE760E4B1F67DBF2007E105F /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +308,7 @@
 				CE760E5B1F67DBF2007E105F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
